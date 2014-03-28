@@ -2,19 +2,31 @@
   "meteor": {},
   "dependencies": {
     "basePackages": {
-      "iron-router": {},
-      "iron-router-progress": {}
-    },
-    "packages": {
+      "blaze-layout": {},
       "iron-router": {
         "git": "https://github.com/EventedMind/iron-router.git",
-        "tag": "v0.6.4",
-        "commit": "927bbaed1b87894fb6fb70807f74ff3a5bd89f29"
+        "branch": "blaze-integration"
       },
       "iron-router-progress": {
         "git": "https://github.com/Multiply/iron-router-progress.git",
-        "tag": "v0.2.0",
-        "commit": "ce730d1d26feadb7c75ea25f22c5bfdb0c549a8b"
+        "branch": "blaze-integration"
+      }
+    },
+    "packages": {
+      "blaze-layout": {
+        "git": "https://github.com/EventedMind/blaze-layout.git",
+        "branch": "master",
+        "commit": "8bc53798fe5965669ae67c72f91829fcfdceabfd"
+      },
+      "iron-router": {
+        "git": "https://github.com/EventedMind/iron-router.git",
+        "branch": "blaze-integration",
+        "commit": "947991731df164e56b53cfdae8ef23802d989142"
+      },
+      "iron-router-progress": {
+        "git": "https://github.com/Multiply/iron-router-progress.git",
+        "branch": "blaze-integration",
+        "commit": "a44eabab9f23b86c42c680cce90b6007fdd7f613"
       }
     }
   }
