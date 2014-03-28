@@ -3,12 +3,6 @@
 
       "blaze-layout": {},
 
-      "iron-router":
-      {
-          "git": "https://github.com/EventedMind/iron-router.git",
-          "branch": "blaze-integration"
-      },
-
       "iron-router-progress":
       {
           "git": "https://github.com/Multiply/iron-router-progress.git",

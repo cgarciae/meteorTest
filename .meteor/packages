@@ -7,6 +7,6 @@ standard-app-packages
 insecure
 bootstrap
 coffeescript
-iron-router
 blaze-layout
 iron-router-progress
+iron-router
